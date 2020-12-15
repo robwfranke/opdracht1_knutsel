@@ -38,5 +38,42 @@
 }
 
 ul {
-    color: hsl(110, 29%, 52%) ;
+
 }
+
+li>a {
+
+    color:hsl(110, 29%, 52%);
+}
+
+.letter-size{
+   font-size: 10px;
+}
+
+p a{
+text-decoration: none;
+}
+/*gebruik voor de unvisited links  commando: link*/
+p a:link{
+color:hsl(359, 79%, 56%);
+    background-color: yellow;
+
+}
+
+p a:hover{
+    background-color: green;
+}
+
+/*gebruik voor visited commando visited*/
+/*main:visited{*/
+
+/*color:orange;*/
+/*}*/
+/*main:hover{*/
+/*    background-color: blueviolet}*/
+
+/*main:visited{*/
+
+/*    background-color: blue}*/
+
+.subscribe sub
